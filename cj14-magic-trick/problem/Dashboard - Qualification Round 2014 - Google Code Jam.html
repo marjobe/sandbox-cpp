@@ -1,0 +1,1060 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0057)https://code.google.com/codejam/contest/2974486/dashboard -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="refresh" content="172795">
+  
+  <title>
+    Dashboard - Qualification Round 2014 - Google Code Jam
+  </title>
+  <link rel="stylesheet" type="text/css" href="./Dashboard - Qualification Round 2014 - Google Code Jam_files/base.css">
+  <link rel="stylesheet" type="text/css" href="./Dashboard - Qualification Round 2014 - Google Code Jam_files/dashboard.css">
+  
+  <script type="text/javascript" async="" src="./Dashboard - Qualification Round 2014 - Google Code Jam_files/ga.js"></script><script type="text/javascript" src="./Dashboard - Qualification Round 2014 - Google Code Jam_files/Dashboard_en.js"></script>
+  
+  <script type="text/javascript"><!--
+    /**
+     * Initializes GCJ.problems and GCJ.io from Django parameters.
+     * Also initializes the two user specific variables GCJ.isQualified and
+     * GCJ.lastClarSeenTime.
+     * This is the first function called once from GCJ.main().
+     */
+    GCJ.initContestVariables = function () {
+      // Convert Django's 'contest' to 'GCJ.contest'.
+      GCJ.contest.id = "2974486";
+      GCJ.contest.name = "Qualification Round 2014";
+      GCJ.contest.version = 0;
+      
+        GCJ.contest.version = 4;
+      
+      GCJ.contest.start_int = 1397257200;
+      GCJ.contest.running = false;
+      GCJ.base_url = '/codejam/contest';
+      GCJ.scoreboardLink = ('<a target="new"' +
+                            'href="scoreboard?c=2974486"' +
+                            '>Contest scoreboard</a>');
+    }
+
+    /**
+     * Returns the current splash page.
+     */
+    GCJ.getSplashPage = function () {
+      return "/codejam";
+    };
+  //--></script>
+<script type="text/javascript" src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"></script><style type="text/css">.jlhlebbhengjlhmcjebbkambaekglhkf {top: 0px; left: 0px;min-width: 30px;max-width: 300px;font-size: 13px;font-family: arial, helvetica, sans-serif;opacity: .93;padding:0px;position:absolute;display:block;z-index: 999997;font-style: normal;font-variant: normal;font-weight: normal;}#jlhlebbhengjlhmcjebbkambaekglhkf_up{text-align: center;padding:0px;margin: 0px;}#jlhlebbhengjlhmcjebbkambaekglhkf_cont{background-color: #729FCF;font-family: arial, helvetica, sans-serif-webkit-box-shadow: #729FCF 0px 0px 2px;color: #FFFFFF;padding:7px;-webkit-border-radius: 5px;}#jlhlebbhengjlhmcjebbkambaekglhkf_down{text-align: center;padding:0px;margin: 0px;}</style></head>
+
+<body onload="GCJ.main()">
+
+<div id="logo-div">
+  <a href="https://code.google.com/codejam/">
+    <img src="./Dashboard - Qualification Round 2014 - Google Code Jam_files/logo_image4.gif" id="logo" alt="Google Code Jam">
+  </a>
+</div>
+
+<div>
+
+<div id="dsb-page-body">
+
+<div id="left-panel">
+  <div class="v-divider"></div>
+  <div class="v-divider"></div>
+  <div class="v-divider"></div>
+  <!-- Problem Selection Panel -->
+  <div id="dsb-contest-title">Qualification Round 2014</div>
+  <hr class="dsb-hr">
+  <div id="dsb-problem-selection-area">
+    <div id="dsb-problem-selection-list" class="after-start-only" style="display: block;">
+    <div><div id="dsb-problem-tab0" class="dsb-problem-tab-open" tabindex="0" role="button">  <div id="dsb-problem-title0" class="dynamic-link">A. Magic Trick  </div></div></div><div><div id="dsb-problem-tab1" class="dsb-problem-tab-close" tabindex="0" role="button">  <div id="dsb-problem-title1" class="dynamic-link">B. Cookie Clicker Alpha  </div></div></div><div><div id="dsb-problem-tab2" class="dsb-problem-tab-close" tabindex="0" role="button">  <div id="dsb-problem-title2" class="dynamic-link">C. Minesweeper Master  </div></div></div><div><div id="dsb-problem-tab3" class="dsb-problem-tab-close" tabindex="0" role="button">  <div id="dsb-problem-title3" class="dynamic-link">D. Deceitful War  </div></div></div></div>
+    <div id="dsb-problem-selection-list-pre-contest" class="dsb-pre-contest-text before-start-only" style="display: none;">
+      
+      The list of problems will appear here after the contest loads.
+      
+    </div>
+  </div>
+  <hr class="dsb-hr">
+  <div class="v-divider"></div>
+  <div class="v-divider"></div>
+  <div id="dsb-analysis-button" class="dsb-analysis-tab-close" tabindex="0" role="button" style="display: block;">
+    <div class="dynamic-link">
+       <div id="dsb-analysis-tab">
+         Contest Analysis
+       </div>
+    </div>
+  </div>
+  <div id="dsb-ask-question-area">
+    <div id="dsb-ask-question-button" class="dsb-clar-tab-close" tabindex="0" role="button" style="display: block;">
+      <div class="dynamic-link">
+        <div id="dsb-ask-question-tab" class="">Questions asked</div>
+      </div>
+    </div>
+    <div class="dsb-pre-contest-text before-start-only" style="display: none;">
+      
+      You'll be able to ask questions about the problems, and view your
+      submissions, here.
+      
+    </div>
+  </div>
+  <div id="dsb-submissions-button" class="dsb-submissions-tab-close" tabindex="0" role="button" style="display: none;">
+    <div class="dynamic-link">
+      <div id="dsb-submissions-tab">
+        View my submissions
+      </div>
+    </div>
+  </div>
+  <div class="v-divider"></div>
+  <div class="v-divider"></div>
+  <div class="dsb-mini-tab-wrapper">
+  <div id="dsb-status-div-container">
+    <div id="dsb-status-header-div" onmouseover="this.style.cursor=&#39;pointer&#39;" onclick="GCJ.toggleStatusPanelVisibility();">
+      <img id="dsb-status-panel-button" src="./Dashboard - Qualification Round 2014 - Google Code Jam_files/minus.gif">
+      &nbsp; Submissions
+    </div>
+    <div id="dsb-status-tab" class="after-start-only" style="display: block;">
+      <div id="dsb-status-tab-loading-text" class="dsb-pre-contest-text" style="display: none;">
+        Loading...
+      </div>
+    <div id="dsb-status-tab-problems" style="display: block;"><div><div id="dsb-problem-status-wrapper0" class="problem-status-wrapper">  <div class="dsb-status-problem-title">Magic Trick</div><div><table class="problemStatus">  <tbody>    <tr class="inputSetStatus">      <td id="inputName0_0" class="inputName">6pt</td>      <td class="status">        <div id="selfStat0_0" class="dsb-mini-status-non-highlight">Not attempted</div>        <div id="globalStat0_0" class="globalStat" style="display: block;"><b>25140/27848 users</b> correct (90%)</div>      </td>    </tr>  </tbody></table></div></div></div><div><div id="dsb-problem-status-wrapper1" class="problem-status-wrapper">  <div class="dsb-status-problem-title">Cookie Clicker Alpha</div><div><table class="problemStatus">  <tbody>    <tr class="inputSetStatus">      <td id="inputName1_0" class="inputName">8pt</td>      <td class="status">        <div id="selfStat1_0" class="dsb-mini-status-non-highlight">Not attempted</div>        <div id="globalStat1_0" class="globalStat" style="display: block;"><b>21737/23049 users</b> correct (94%)</div>      </td>    </tr>  </tbody></table></div><div><table class="problemStatus">  <tbody>    <tr class="inputSetStatus">      <td id="inputName1_1" class="inputName">11pt</td>      <td class="status">        <div id="selfStat1_1" class="dsb-mini-status-non-highlight">Not attempted</div>        <div id="globalStat1_1" class="globalStat" style="display: block;"><b>18972/21474 users</b> correct (88%)</div>      </td>    </tr>  </tbody></table></div></div></div><div><div id="dsb-problem-status-wrapper2" class="problem-status-wrapper">  <div class="dsb-status-problem-title">Minesweeper Master</div><div><table class="problemStatus">  <tbody>    <tr class="inputSetStatus">      <td id="inputName2_0" class="inputName">11pt</td>      <td class="status">        <div id="selfStat2_0" class="dsb-mini-status-non-highlight">Not attempted</div>        <div id="globalStat2_0" class="globalStat" style="display: block;"><b>3857/8640 users</b> correct (45%)</div>      </td>    </tr>  </tbody></table></div><div><table class="problemStatus">  <tbody>    <tr class="inputSetStatus">      <td id="inputName2_1" class="inputName">24pt</td>      <td class="status">        <div id="selfStat2_1" class="dsb-mini-status-non-highlight">Not attempted</div>        <div id="globalStat2_1" class="globalStat" style="display: block;"><b>2441/3180 users</b> correct (77%)</div>      </td>    </tr>  </tbody></table></div></div></div><div><div id="dsb-problem-status-wrapper3" class="problem-status-wrapper">  <div class="dsb-status-problem-title">Deceitful War</div><div><table class="problemStatus">  <tbody>    <tr class="inputSetStatus">      <td id="inputName3_0" class="inputName">14pt</td>      <td class="status">        <div id="selfStat3_0" class="dsb-mini-status-non-highlight">Not attempted</div>        <div id="globalStat3_0" class="globalStat" style="display: block;"><b>11135/12434 users</b> correct (90%)</div>      </td>    </tr>  </tbody></table></div><div><table class="problemStatus">  <tbody>    <tr class="inputSetStatus">      <td id="inputName3_1" class="inputName">16pt</td>      <td class="status">        <div id="selfStat3_1" class="dsb-mini-status-non-highlight">Not attempted</div>        <div id="globalStat3_1" class="globalStat" style="display: block;"><b>10215/10850 users</b> correct (94%)</div>      </td>    </tr>  </tbody></table></div></div></div></div></div>
+    <div id="dsb-status-tab-pre-contest" class="dsb-pre-contest-text before-start-only" style="display: none;">
+      
+      Statistics about the problems will appear here.  They'll include your
+      status on each problem, and other contestants' attempts.
+      
+    </div>
+  </div>
+  </div>
+  <div class="v-divider"></div>
+  <div class="v-divider"></div>
+  <!-- Mini Scoreboard -->
+  <div class="dsb-mini-tab-wrapper">
+    <div id="dsb-scoreboard-div">
+      <div id="dsb-scoreboard-header-div" onmouseover="this.style.cursor=&#39;pointer&#39;" onclick="GCJ.toggleVisibility(
+              &#39;dsb-scoreboard-table&#39;,
+              &#39;dsb-scoreboard-panel-button&#39;,
+              &#39;/codejam/contest/static/minus.gif&#39;,
+              &#39;/codejam/contest/static/plus.gif&#39;)" style="cursor: pointer;">
+          <img id="dsb-scoreboard-panel-button" src="./Dashboard - Qualification Round 2014 - Google Code Jam_files/minus.gif">
+          &nbsp; Top Scores
+      </div>
+      <div id="dsb-scoreboard-table-wrap" class="after-start-only" style="display: block;"><table id="dsb-scoreboard-table"><tbody><tr class="dsb-scoreboard-row-even" id="sbRow_0" style="display: block;"><td class="dsb-name-td" id="sbName_0">Gennady.Korotkevich</td><td class="dsb-score-td" id="sbScore_0">90</td></tr><tr class="dsb-scoreboard-row-odd" id="sbRow_1" style="display: block;"><td class="dsb-name-td" id="sbName_1">surwdkgo</td><td class="dsb-score-td" id="sbScore_1">90</td></tr><tr class="dsb-scoreboard-row-even" id="sbRow_2" style="display: block;"><td class="dsb-name-td" id="sbName_2">Eryx</td><td class="dsb-score-td" id="sbScore_2">90</td></tr><tr class="dsb-scoreboard-row-odd" id="sbRow_3" style="display: block;"><td class="dsb-name-td" id="sbName_3">DoublePointer</td><td class="dsb-score-td" id="sbScore_3">90</td></tr><tr class="dsb-scoreboard-row-even" id="sbRow_4" style="display: block;"><td class="dsb-name-td" id="sbName_4">Marcinsmu</td><td class="dsb-score-td" id="sbScore_4">90</td></tr><tr class="dsb-scoreboard-row-odd" id="sbRow_5" style="display: block;"><td class="dsb-name-td" id="sbName_5">SnapDragon</td><td class="dsb-score-td" id="sbScore_5">90</td></tr><tr class="dsb-scoreboard-row-even" id="sbRow_6" style="display: block;"><td class="dsb-name-td" id="sbName_6">drazil</td><td class="dsb-score-td" id="sbScore_6">90</td></tr><tr class="dsb-scoreboard-row-odd" id="sbRow_7" style="display: block;"><td class="dsb-name-td" id="sbName_7">sevenkplus</td><td class="dsb-score-td" id="sbScore_7">90</td></tr><tr class="dsb-scoreboard-row-even" id="sbRow_8" style="display: block;"><td class="dsb-name-td" id="sbName_8">Krazul</td><td class="dsb-score-td" id="sbScore_8">90</td></tr><tr class="dsb-scoreboard-row-odd" id="sbRow_9" style="display: block;"><td class="dsb-name-td" id="sbName_9">Al.Cash</td><td class="dsb-score-td" id="sbScore_9">90</td></tr></tbody></table></div>
+      <div id="dsb-scoreboard-tab-pre-contest" class="dsb-pre-contest-text before-start-only" style="display: none;">
+        
+        The scores of the top 10 contestants will appear here, with a link to
+        the contest's scoreboard.
+        
+      </div>
+      <div class="dsb-mini-tab-link">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="right-panel">
+  <div id="dsb-status-msg-wrapper" class="dsb-status-msg-wrapper" role="alert" style="visibility: hidden;">
+    <div id="dsb-status-msg" class="dsb-status-msg">
+      <span id="dsb-status-msg-text">Judged response for input A-small: <font color="green"><b>Correct!</b></font></span>
+      <span id="dsb-view-sub-link" style="display: none;">View submissions.</span>
+    </div>
+  </div>
+
+  <div id="dsb-contest-title-bar">
+    <div id="dsb-rank-etc">
+      <span id="dsb-time-remaining">Practice Mode</span>
+      <span class="after-start-only-inline" style="display: inline;">
+        <span id="dsb-current-rank-div" style="display: none;">
+          Rank: <span id="dsb-current-rank-span">--</span>
+        </span>
+        <span id="dsb-current-score-div" style="display: none;">
+          Score: <span id="dsb-current-score-span">--</span>
+        </span>
+      </span>
+    </div>
+    <div id="dsb-title-links"><a target="new" href="https://code.google.com/codejam/contest/2974486/scoreboard?c=2974486">Contest scoreboard</a> | <a href="https://www.google.com/accounts/ServiceLogin?service=ah&passive=true&continue=https://appengine.google.com/_ah/conflogin%3Fcontinue%3Dhttps://code.google.com/codejam/contest/dashboard%253Fc%253D2974486&ltmpl=">Sign in</a></div>
+  </div>
+  <!-- Problem Statement -->
+  <div id="main-panel-border" class="dsb-blue-border">
+  <div id="dsb-border-inner">
+   <!-- Problem Title -->
+    <h3 id="dsb-problem-title-area">
+      <span id="dsb-problem-title-div-pre-contest" class="problem-title before-start-only" style="display: none;">
+        <span style="color:#666">Problem.</span>
+        The problem's name goes here.
+      </span>
+      <span id="dsb-problem-title-div" class="problem-title after-start-only" style="display: block;"><span style="color:#666">Problem A.</span> Magic Trick</span>
+    </h3>
+
+    <div class="dsb-content-pages before-start-only" style="display: none;">
+      
+      We're now waiting for the contest to start.  Once the contest starts,
+      the problems will automatically load, and Problem A will display here.
+      You don't have to solve that problem first; you will be able to select
+      another problem from the list to the left.  Once you've solved one
+      problem, don't forget to work on the others!
+      
+    </div>
+
+    <div id="dsb-problem-pages"><div id="dsb-problem-page0" class="dsb-content-pages" style="display: block;"><!-- Problem Input File Selection --><div class="dsb-input-panel-text" id="dsb-input-panel-text0"><span style="color: #666666;">This contest is open for practice.  You can try every problem as many times as you like, though we won't keep track of which problems you solve.  Read the <a href="https://code.google.com/codejam/quickstart.html" target="_blank">Quick-Start Guide</a> to get started.</span></div><table><tbody id="dsb-input-form-table0"><tr><td class="dsb-input-table-description">Small input<br>6 points</td><td class="dsb-input-table-linktd"><div id="dsb-action-box-wrap0-0" class=""><div id="dsb-input-wrapper0-0" class="dsb-input-wrapper" style="display: inline;"><button class="dsb-input-start-button" id="dsb-input-start-button0-0" style="display: inline;">Solve A-small</button><span class="dsb-input-link-span" id="dsb-input-link-plain0-0" style="display: none;"><img class="dsb-input-link-img" src="./Dashboard - Qualification Round 2014 - Google Code Jam_files/file.gif"><span class="dsb-input-link-text" id="dsb-input-link-plain-text0-0">Download A-small-practice.in</span></span></div><span class="dsb-input-table-caption" id="dsb-input-table-caption0-0" style="display: block;">Judge's response for last submission: Correct.</span><span class="dsb-input-table-caption" id="dsb-resubmit-caption0-0" style="display: none;">Your submission was received. You can still <span class="dsb-input-link-text" id="dsb-resubmit-link0-0">resubmit</span> for <span id="dsb-resubmit-timer0-0"></span>.<br>Only your last submission counts. <span class="dsb-input-link-text" id="dsb-resubmit-view-sub-link0-0">View your last submission</span>.</span><div><div class="dsb-submit-form-div" id="dsb-submit-form-div0-0" style="display: none;"><div style="display:none"><b>Time Remaining:</b> <span id="io_timer_0"></span>&nbsp;&nbsp;</div><div style="display:none"><b>Input:</b> A-small-practice.in.</div><form id="submit-formio_timer_0" action="https://code.google.com/codejam/contest/2974486/dashboard/do" enctype="multipart/form-data" method="post" target="closure_frame1_0_inner"><input type="hidden" name="csrfmiddlewaretoken" value="MWMzZjFhNTJiZjI5ZTBiNTEzMGY2NjA2MjY1ZTFjOTV8fDE0MDk1NzY0NjI5MDMzMDU="><div class="dsb-submit-form-separator">your output file:<input id="output-fileio_timer_0" type="file" name="answer" class="submitFormFile"></div><div style="display: none"><table class="dsb-source-code-table"><tbody><tr><td style="padding:0.4em 0.2em 0 0">source code:&nbsp;&nbsp;</td><td><div id="source-filesio_timer_0"><div id="input-file-divio_timer_0-0"><span id="source-fileio_timer_0-0"><input type="file" name="source-file0" class="submitFormFile"></span><span id="remove-source-fileio_timer_0-0" class="dsb-submit-form-links" style="visibility: hidden;">remove</span></div></div><span id="add-source-fileio_timer_0" class="dsb-submit-form-links">Add another file</span></td></tr></tbody></table></div><div class="dsb-submit-form-separator" style="color:gray">source file(s): &nbsp;&nbsp;&nbsp;not needed for the practice contest</div><div class="dsb-submit-form-separator" style="text-align:center"><input id="submit-buttonio_timer_0" type="button" value="Submit file">&nbsp;&nbsp;<input id="dsb-hide-submissionio_timer_0" type="button" value="Hide"></div><div id="source-file-namesio_timer_0"></div><input type="hidden" name="cmd" value="SubmitAnswer"><input type="hidden" name="problem" value="5756407898963968"><input type="hidden" name="input_id" value="0"><input type="hidden" name="num_source_files" id="num-source-filesio_timer_0" value="1"><input type="hidden" name="agent" value="website"></form></div></div></div></td></tr></tbody></table><!-- Problem Statement --><div id="dsb-problem-content-div0" class="dsb-problem-content-div" style="width: 40em;"><p><b>Note:</b> To advance to the next rounds, you will need to score 25 points. Solving just this problem will not give you enough points.</p>
+
+<h3>Problem</h3>
+<p>
+Recently you went to a magic show. You were very impressed by one of the tricks, so you decided to try to figure out the secret behind it!
+</p>
+<p>
+The magician starts by arranging 16 cards in a square grid: 4 rows of cards, with 4 cards in each row. Each card has a different number from 1 to 16 written on the side that is showing. Next, the magician asks a volunteer to choose a card, and to tell him which row that card is in.
+</p>
+<p>
+Finally, the magician arranges the 16 cards in a square grid again, possibly in a different order. Once again, he asks the volunteer which row her card is in. With only the answers to these two questions, the magician then correctly determines which card the volunteer chose. Amazing, right?
+</p>
+<p>
+You decide to write a program to help you understand the magician's technique. The program will be given the two arrangements of the cards, and the volunteer's answers to the two questions: the row number of the selected card in the first arrangement, and the row number of the selected card in the second arrangement. The rows are numbered 1 to 4 from top to bottom.
+</p>
+<p>
+Your program should determine which card the volunteer chose; or if there is more than one card the volunteer might have chosen (the magician did a bad job); or if there's no card consistent with the volunteer's answers (the volunteer cheated).
+</p>
+
+<h3>Solving this problem</h3>
+<p>
+Usually, Google Code Jam problems have 1 Small input and 1 Large input.  This problem has only <b>1 Small input</b>.  Once you have solved the Small input, you have finished solving this problem.
+</p>
+
+<h3>Input</h3>
+<p>
+The first line of the input gives the number of test cases, <b>T</b>.  <b>T</b> test cases follow. Each test case starts with a line containing an integer: the answer to the first question. The next 4 lines represent the first arrangement of the cards: each contains 4 integers, separated by a single space. The next line contains the answer to the second question, and the following four lines contain the second arrangement in the same format.
+</p>
+
+<h3>Output</h3>
+<p>
+For each test case, output one line containing "Case #x: y", where x is the test case number (starting from 1). 
+</p>
+<p>
+If there is a single card the volunteer could have chosen, y should be the number on the card. If there are multiple cards the volunteer could have chosen, y should be "Bad magician!", without the quotes. If there are no cards consistent with the volunteer's answers, y should be "Volunteer cheated!", without the quotes. The text needs to be exactly right, so consider copying/pasting it from here.
+</p>
+
+<h3>Limits</h3>
+<p>
+1 ≤ <b>T</b> ≤ 100.<br>
+1 ≤ both answers ≤ 4.<br>
+Each number from 1 to 16 will appear exactly once in each arrangement.
+</p>
+
+
+<h3>Sample</h3>
+<div class="problem-io-wrapper">
+<table>
+<tbody><tr>
+<td>
+<br>
+<span class="io-table-header">Input</span>
+<br>&nbsp;
+</td>
+<td>
+<br>
+<span class="io-table-header">Output</span>
+<br>&nbsp;
+</td>
+</tr>
+<tr>
+<td>
+<pre class="io-content">3
+2
+1 2 3 4
+5 6 7 8
+9 10 11 12
+13 14 15 16
+3
+1 2 5 4
+3 11 6 15
+9 10 7 12
+13 14 8 16
+2
+1 2 3 4
+5 6 7 8
+9 10 11 12
+13 14 15 16
+2
+1 2 3 4
+5 6 7 8
+9 10 11 12
+13 14 15 16
+2
+1 2 3 4
+5 6 7 8
+9 10 11 12
+13 14 15 16
+3
+1 2 3 4
+5 6 7 8
+9 10 11 12
+13 14 15 16
+
+</pre>
+</td>
+<td>
+<pre class="io-content">Case #1: 7
+Case #2: Bad magician!
+Case #3: Volunteer cheated!
+
+</pre>
+</td></tr></tbody></table>
+</div>
+
+</div></div><div id="dsb-problem-page1" class="dsb-content-pages"><!-- Problem Input File Selection --><div class="dsb-input-panel-text" id="dsb-input-panel-text1"><span style="color: #666666;">This contest is open for practice.  You can try every problem as many times as you like, though we won't keep track of which problems you solve.  Read the <a href="https://code.google.com/codejam/quickstart.html" target="_blank">Quick-Start Guide</a> to get started.</span></div><table><tbody id="dsb-input-form-table1"><tr><td class="dsb-input-table-description">Small input<br>8 points</td><td class="dsb-input-table-linktd"><div id="dsb-action-box-wrap1-0" class=""><div id="dsb-input-wrapper1-0" class="dsb-input-wrapper" style="display: inline;"><button class="dsb-input-start-button" id="dsb-input-start-button1-0" style="display: inline;">Solve B-small</button><span class="dsb-input-link-span" id="dsb-input-link-plain1-0" style="display: none;"><img class="dsb-input-link-img" src="./Dashboard - Qualification Round 2014 - Google Code Jam_files/file.gif"><span class="dsb-input-link-text" id="dsb-input-link-plain-text1-0">Download B-small-practice.in</span></span></div><span class="dsb-input-table-caption" id="dsb-input-table-caption1-0" style="display: none;"></span><span class="dsb-input-table-caption" id="dsb-resubmit-caption1-0" style="display: none;">Your submission was received. You can still <span class="dsb-input-link-text" id="dsb-resubmit-link1-0">resubmit</span> for <span id="dsb-resubmit-timer1-0"></span>.<br>Only your last submission counts. <span class="dsb-input-link-text" id="dsb-resubmit-view-sub-link1-0">View your last submission</span>.</span><div><div class="dsb-submit-form-div" id="dsb-submit-form-div1-0" style="display: none;"><div style="display:none"><b>Time Remaining:</b> <span id="io_timer_1"></span>&nbsp;&nbsp;</div><div style="display:none"><b>Input:</b> B-small-practice.in.</div><form id="submit-formio_timer_1" action="https://code.google.com/codejam/contest/2974486/dashboard/do" enctype="multipart/form-data" method="post"><input type="hidden" name="csrfmiddlewaretoken" value="MWMzZjFhNTJiZjI5ZTBiNTEzMGY2NjA2MjY1ZTFjOTV8fDE0MDk1NzY0NjI5MDMzMDU="><div class="dsb-submit-form-separator">your output file:<input id="output-fileio_timer_1" type="file" name="answer" class="submitFormFile"></div><div style="display: none"><table class="dsb-source-code-table"><tbody><tr><td style="padding:0.4em 0.2em 0 0">source code:&nbsp;&nbsp;</td><td><div id="source-filesio_timer_1"><div id="input-file-divio_timer_1-0"><span id="source-fileio_timer_1-0"><input type="file" name="source-file0" class="submitFormFile"></span><span id="remove-source-fileio_timer_1-0" class="dsb-submit-form-links" style="visibility: hidden;">remove</span></div></div><span id="add-source-fileio_timer_1" class="dsb-submit-form-links">Add another file</span></td></tr></tbody></table></div><div class="dsb-submit-form-separator" style="color:gray">source file(s): &nbsp;&nbsp;&nbsp;not needed for the practice contest</div><div class="dsb-submit-form-separator" style="text-align:center"><input id="submit-buttonio_timer_1" type="button" value="Submit file">&nbsp;&nbsp;<input id="dsb-hide-submissionio_timer_1" type="button" value="Hide"></div><div id="source-file-namesio_timer_1"></div><input type="hidden" name="cmd" value="SubmitAnswer"><input type="hidden" name="problem" value="5709773144064000"><input type="hidden" name="input_id" value="0"><input type="hidden" name="num_source_files" id="num-source-filesio_timer_1" value="1"><input type="hidden" name="agent" value="website"></form></div></div></div></td></tr><tr><td class="dsb-input-table-description">Large input<br>11 points</td><td class="dsb-input-table-linktd"><div id="dsb-action-box-wrap1-1" class=""><div id="dsb-input-wrapper1-1" class="dsb-input-wrapper" style="display: inline;"><button class="dsb-input-start-button" id="dsb-input-start-button1-1" style="display: inline;">Solve B-large</button><span class="dsb-input-link-span" id="dsb-input-link-plain1-1" style="display: none;"><img class="dsb-input-link-img" src="./Dashboard - Qualification Round 2014 - Google Code Jam_files/file.gif"><span class="dsb-input-link-text" id="dsb-input-link-plain-text1-1">Download B-large-practice.in</span></span></div><span class="dsb-input-table-caption" id="dsb-input-table-caption1-1" style="display: none;"></span><span class="dsb-input-table-caption" id="dsb-resubmit-caption1-1" style="display: none;">Your submission was received. You can still <span class="dsb-input-link-text" id="dsb-resubmit-link1-1">resubmit</span> for <span id="dsb-resubmit-timer1-1"></span>.<br>Only your last submission counts. <span class="dsb-input-link-text" id="dsb-resubmit-view-sub-link1-1">View your last submission</span>.</span><div><div class="dsb-submit-form-div" id="dsb-submit-form-div1-1" style="display: none;"><div style="display:none"><b>Time Remaining:</b> <span id="io_timer_2"></span>&nbsp;&nbsp;</div><div style="display:none">You may resubmit this multiple times within the remaining time-frame. Only your last submission will count.</div><form id="submit-formio_timer_2" action="https://code.google.com/codejam/contest/2974486/dashboard/do" enctype="multipart/form-data" method="post"><input type="hidden" name="csrfmiddlewaretoken" value="MWMzZjFhNTJiZjI5ZTBiNTEzMGY2NjA2MjY1ZTFjOTV8fDE0MDk1NzY0NjI5MDMzMDU="><div class="dsb-submit-form-separator">your output file:<input id="output-fileio_timer_2" type="file" name="answer" class="submitFormFile"></div><div style="display: none"><table class="dsb-source-code-table"><tbody><tr><td style="padding:0.4em 0.2em 0 0">source code:&nbsp;&nbsp;</td><td><div id="source-filesio_timer_2"><div id="input-file-divio_timer_2-0"><span id="source-fileio_timer_2-0"><input type="file" name="source-file0" class="submitFormFile"></span><span id="remove-source-fileio_timer_2-0" class="dsb-submit-form-links" style="visibility: hidden;">remove</span></div></div><span id="add-source-fileio_timer_2" class="dsb-submit-form-links">Add another file</span></td></tr></tbody></table></div><div class="dsb-submit-form-separator" style="color:gray">source file(s): &nbsp;&nbsp;&nbsp;not needed for the practice contest</div><div class="dsb-submit-form-separator" style="text-align:center"><input id="submit-buttonio_timer_2" type="button" value="Submit file">&nbsp;&nbsp;<input id="dsb-hide-submissionio_timer_2" type="button" value="Hide"></div><div id="source-file-namesio_timer_2"></div><input type="hidden" name="cmd" value="SubmitAnswer"><input type="hidden" name="problem" value="5709773144064000"><input type="hidden" name="input_id" value="1"><input type="hidden" name="num_source_files" id="num-source-filesio_timer_2" value="1"><input type="hidden" name="agent" value="website"></form></div></div></div></td></tr></tbody></table><!-- Problem Statement --><div id="dsb-problem-content-div1" class="dsb-problem-content-div" style="width: 40em;"><h3>Introduction</h3>
+<p>
+<i>Cookie Clicker</i> is a Javascript game by Orteil, where players click on a picture of a giant cookie. Clicking on the giant cookie gives them cookies. They can spend those cookies to buy buildings. Those buildings help them get even more cookies. Like this problem, the game is very cookie-focused. This problem has a similar idea, but it does not assume you have played <i>Cookie Clicker</i>. Please don't go play it now: it might be a long time before you come back.
+</p>
+
+<h3>Problem</h3>
+
+<p>
+In this problem, you start with 0 cookies. You gain cookies at a rate of 2 cookies per second, by clicking on a giant cookie. Any time you have at least <b>C</b> cookies, you can buy a cookie farm. Every time you buy a cookie farm, it costs you <b>C</b> cookies and gives you an extra <b>F</b> cookies per second.
+</p>
+<p>
+Once you have <b>X</b> cookies that you haven't spent on farms, you win! Figure out how long it will take you to win if you use the best possible strategy.
+</p>
+
+<h3>Example</h3>
+
+<p>
+Suppose <b>C</b>=500.0, <b>F</b>=4.0 and <b>X</b>=2000.0. Here's how the best possible strategy plays out:
+</p><ol>
+<li>You start with 0 cookies, but producing 2 cookies per second.</li>
+<li>After <b>250</b> seconds, you will have <b>C</b>=500 cookies and can buy a farm that produces <b>F</b>=4 cookies per second.</li>
+<li>After buying the farm, you have 0 cookies, and your total cookie production is 6 cookies per second.</li>
+<li>The next farm will cost 500 cookies, which you can buy after about <b>83.3333333</b> seconds.</li>
+<li>After buying your second farm, you have 0 cookies, and your total cookie production is 10 cookies per second.</li>
+<li>Another farm will cost 500 cookies, which you can buy after <b>50</b> seconds.</li>
+<li>After buying your third farm, you have 0 cookies, and your total cookie production is 14 cookies per second.</li>
+<li>Another farm would cost 500 cookies, but it actually makes sense not to buy it: instead you can just wait until you have <b>X</b>=2000 cookies, which takes about <b>142.8571429</b> seconds.</li>
+</ol>
+Total time: 250 + 83.3333333 + 50 + 142.8571429 = 526.1904762 seconds.
+<p></p>
+<p>
+Notice that you get cookies continuously: so 0.1 seconds after the game starts you'll have 0.2 cookies, and π seconds after the game starts you'll have 2π cookies.
+</p>
+
+
+<h3>Input</h3>
+<p>
+The first line of the input gives the number of test cases, <b>T</b>.  <b>T</b> lines follow.  Each line contains three space-separated real-valued numbers: <b>C</b>, <b>F</b> and <b>X</b>, whose meanings are described earlier in the problem statement.
+</p>
+<p>
+<b>C</b>, <b>F</b> and <b>X</b> will each consist of at least 1 digit followed by 1 decimal point followed by from 1 to 5 digits. There will be no leading zeroes.
+</p>
+
+<h3>Output</h3>
+<p>
+For each test case, output one line containing "Case #x: y", where x is the test case number (starting from 1) and y is the minimum number of seconds it takes before you can have <b>X</b> delicious cookies.
+</p>
+
+<p>
+We recommend outputting y to 7 decimal places, but it is not required. y will be considered correct if it is close enough to the correct number: within an absolute or relative error of 10<sup>-6</sup>.  See the <a href="https://code.google.com/codejam/faq.html#floating_point" target="_blank">FAQ</a> for an explanation of what that means, and what formats of real numbers we accept. 
+</p>
+
+<h3>Limits</h3>
+<p>
+1 ≤ <b>T</b> ≤ 100.
+</p>
+
+<h4>Small dataset</h4>
+<p>
+1 ≤ <b>C</b> ≤ 500.<br>
+1 ≤ <b>F</b> ≤ 4.<br>
+1 ≤ <b>X</b> ≤ 2000.<br>
+</p>
+
+<h4>Large dataset</h4>
+<p>
+1 ≤ <b>C</b> ≤ 10000.<br>
+1 ≤ <b>F</b> ≤ 100.<br>
+1 ≤ <b>X</b> ≤ 100000.<br>
+</p>
+
+
+<h3>Sample</h3>
+<div class="problem-io-wrapper">
+<table>
+<tbody><tr>
+<td>
+<br>
+<span class="io-table-header">Input</span>
+<br>&nbsp;
+</td>
+<td>
+<br>
+<span class="io-table-header">Output</span>
+<br>&nbsp;
+</td>
+</tr>
+<tr>
+<td>
+<pre class="io-content">4
+30.0 1.0 2.0
+30.0 2.0 100.0
+30.50000 3.14159 1999.19990
+500.0 4.0 2000.0
+
+</pre>
+</td>
+<td>
+<pre class="io-content">Case #1: 1.0000000
+Case #2: 39.1666667
+Case #3: 63.9680013
+Case #4: 526.1904762
+
+</pre>
+</td></tr></tbody></table>
+</div>
+
+
+<h3>Note</h3>
+<p>
+<i>Cookie Clicker</i> was created by Orteil. Orteil does not endorse and has no involvement with Google Code Jam.
+</p></div></div><div id="dsb-problem-page2" class="dsb-content-pages"><!-- Problem Input File Selection --><div class="dsb-input-panel-text" id="dsb-input-panel-text2"><span style="color: #666666;">This contest is open for practice.  You can try every problem as many times as you like, though we won't keep track of which problems you solve.  Read the <a href="https://code.google.com/codejam/quickstart.html" target="_blank">Quick-Start Guide</a> to get started.</span></div><table><tbody id="dsb-input-form-table2"><tr><td class="dsb-input-table-description">Small input<br>11 points</td><td class="dsb-input-table-linktd"><div id="dsb-action-box-wrap2-0" class=""><div id="dsb-input-wrapper2-0" class="dsb-input-wrapper" style="display: inline;"><button class="dsb-input-start-button" id="dsb-input-start-button2-0" style="display: inline;">Solve C-small</button><span class="dsb-input-link-span" id="dsb-input-link-plain2-0" style="display: none;"><img class="dsb-input-link-img" src="./Dashboard - Qualification Round 2014 - Google Code Jam_files/file.gif"><span class="dsb-input-link-text" id="dsb-input-link-plain-text2-0">Download C-small-practice.in</span></span></div><span class="dsb-input-table-caption" id="dsb-input-table-caption2-0" style="display: none;"></span><span class="dsb-input-table-caption" id="dsb-resubmit-caption2-0" style="display: none;">Your submission was received. You can still <span class="dsb-input-link-text" id="dsb-resubmit-link2-0">resubmit</span> for <span id="dsb-resubmit-timer2-0"></span>.<br>Only your last submission counts. <span class="dsb-input-link-text" id="dsb-resubmit-view-sub-link2-0">View your last submission</span>.</span><div><div class="dsb-submit-form-div" id="dsb-submit-form-div2-0" style="display: none;"><div style="display:none"><b>Time Remaining:</b> <span id="io_timer_3"></span>&nbsp;&nbsp;</div><div style="display:none"><b>Input:</b> C-small-practice.in.</div><form id="submit-formio_timer_3" action="https://code.google.com/codejam/contest/2974486/dashboard/do" enctype="multipart/form-data" method="post"><input type="hidden" name="csrfmiddlewaretoken" value="MWMzZjFhNTJiZjI5ZTBiNTEzMGY2NjA2MjY1ZTFjOTV8fDE0MDk1NzY0NjI5MDMzMDU="><div class="dsb-submit-form-separator">your output file:<input id="output-fileio_timer_3" type="file" name="answer" class="submitFormFile"></div><div style="display: none"><table class="dsb-source-code-table"><tbody><tr><td style="padding:0.4em 0.2em 0 0">source code:&nbsp;&nbsp;</td><td><div id="source-filesio_timer_3"><div id="input-file-divio_timer_3-0"><span id="source-fileio_timer_3-0"><input type="file" name="source-file0" class="submitFormFile"></span><span id="remove-source-fileio_timer_3-0" class="dsb-submit-form-links" style="visibility: hidden;">remove</span></div></div><span id="add-source-fileio_timer_3" class="dsb-submit-form-links">Add another file</span></td></tr></tbody></table></div><div class="dsb-submit-form-separator" style="color:gray">source file(s): &nbsp;&nbsp;&nbsp;not needed for the practice contest</div><div class="dsb-submit-form-separator" style="text-align:center"><input id="submit-buttonio_timer_3" type="button" value="Submit file">&nbsp;&nbsp;<input id="dsb-hide-submissionio_timer_3" type="button" value="Hide"></div><div id="source-file-namesio_timer_3"></div><input type="hidden" name="cmd" value="SubmitAnswer"><input type="hidden" name="problem" value="5690574640250880"><input type="hidden" name="input_id" value="0"><input type="hidden" name="num_source_files" id="num-source-filesio_timer_3" value="1"><input type="hidden" name="agent" value="website"></form></div></div></div></td></tr><tr><td class="dsb-input-table-description">Large input<br>24 points</td><td class="dsb-input-table-linktd"><div id="dsb-action-box-wrap2-1" class=""><div id="dsb-input-wrapper2-1" class="dsb-input-wrapper" style="display: inline;"><button class="dsb-input-start-button" id="dsb-input-start-button2-1" style="display: inline;">Solve C-large</button><span class="dsb-input-link-span" id="dsb-input-link-plain2-1" style="display: none;"><img class="dsb-input-link-img" src="./Dashboard - Qualification Round 2014 - Google Code Jam_files/file.gif"><span class="dsb-input-link-text" id="dsb-input-link-plain-text2-1">Download C-large-practice.in</span></span></div><span class="dsb-input-table-caption" id="dsb-input-table-caption2-1" style="display: none;"></span><span class="dsb-input-table-caption" id="dsb-resubmit-caption2-1" style="display: none;">Your submission was received. You can still <span class="dsb-input-link-text" id="dsb-resubmit-link2-1">resubmit</span> for <span id="dsb-resubmit-timer2-1"></span>.<br>Only your last submission counts. <span class="dsb-input-link-text" id="dsb-resubmit-view-sub-link2-1">View your last submission</span>.</span><div><div class="dsb-submit-form-div" id="dsb-submit-form-div2-1" style="display: none;"><div style="display:none"><b>Time Remaining:</b> <span id="io_timer_4"></span>&nbsp;&nbsp;</div><div style="display:none">You may resubmit this multiple times within the remaining time-frame. Only your last submission will count.</div><form id="submit-formio_timer_4" action="https://code.google.com/codejam/contest/2974486/dashboard/do" enctype="multipart/form-data" method="post"><input type="hidden" name="csrfmiddlewaretoken" value="MWMzZjFhNTJiZjI5ZTBiNTEzMGY2NjA2MjY1ZTFjOTV8fDE0MDk1NzY0NjI5MDMzMDU="><div class="dsb-submit-form-separator">your output file:<input id="output-fileio_timer_4" type="file" name="answer" class="submitFormFile"></div><div style="display: none"><table class="dsb-source-code-table"><tbody><tr><td style="padding:0.4em 0.2em 0 0">source code:&nbsp;&nbsp;</td><td><div id="source-filesio_timer_4"><div id="input-file-divio_timer_4-0"><span id="source-fileio_timer_4-0"><input type="file" name="source-file0" class="submitFormFile"></span><span id="remove-source-fileio_timer_4-0" class="dsb-submit-form-links" style="visibility: hidden;">remove</span></div></div><span id="add-source-fileio_timer_4" class="dsb-submit-form-links">Add another file</span></td></tr></tbody></table></div><div class="dsb-submit-form-separator" style="color:gray">source file(s): &nbsp;&nbsp;&nbsp;not needed for the practice contest</div><div class="dsb-submit-form-separator" style="text-align:center"><input id="submit-buttonio_timer_4" type="button" value="Submit file">&nbsp;&nbsp;<input id="dsb-hide-submissionio_timer_4" type="button" value="Hide"></div><div id="source-file-namesio_timer_4"></div><input type="hidden" name="cmd" value="SubmitAnswer"><input type="hidden" name="problem" value="5690574640250880"><input type="hidden" name="input_id" value="1"><input type="hidden" name="num_source_files" id="num-source-filesio_timer_4" value="1"><input type="hidden" name="agent" value="website"></form></div></div></div></td></tr></tbody></table><!-- Problem Statement --><div id="dsb-problem-content-div2" class="dsb-problem-content-div" style="width: 40em;"><h3>Problem</h3>
+<p>
+<i>Minesweeper</i> is a computer game that became popular in the 1980s, and is still included in some versions of the <i>Microsoft Windows</i> operating system. This problem has a similar idea, but it does not assume you have played <i>Minesweeper</i>.
+</p>
+
+<p>
+In this problem, you are playing a game on a grid of identical cells. The content of each cell is initially hidden. There are <b>M</b> mines hidden in <b>M</b> different cells of the grid. No other cells contain mines. You may click on any cell to reveal it. If the revealed cell contains a mine, then the game is over, and you lose. Otherwise, the revealed cell will contain a digit between 0 and 8, inclusive, which corresponds to the number of neighboring cells that contain mines. Two cells are neighbors if they share a corner or an edge. Additionally, if the revealed cell contains a 0, then all of the neighbors of the revealed cell are automatically revealed as well, recursively. When all the cells that don't contain mines have been revealed, the game ends, and you win.
+</p>
+
+<p>
+For example, an initial configuration of the board may look like this ('*' denotes a mine, and 'c' is the first clicked cell):
+</p><pre>*..*...**.
+....*.....
+..c..*....
+........*.
+..........
+</pre>
+There are no mines adjacent to the clicked cell, so when it is revealed, it becomes a 0, and its 8 adjacent cells are revealed as well. This process continues, resulting in the following board:
+<pre>*..*...**.
+1112*.....
+00012*....
+00001111*.
+00000001..
+</pre>
+At this point, there are still un-revealed cells that do not contain mines (denoted by '.' characters), so the player has to click again in order to continue the game.
+<p></p>
+
+<p>
+You want to win the game as quickly as possible. There is nothing quicker than winning in one click. Given the size of the board (<b>R</b> x <b>C</b>) and the number of hidden mines <b>M</b>, is it possible (however unlikely) to win in one click? You may choose where you click. If it is possible, then print any valid mine configuration and the coordinates of your click, following the specifications in the <i>Output</i> section. Otherwise, print "Impossible".
+</p>
+
+<h3>Input</h3>
+<p>
+The first line of the input gives the number of test cases, <b>T</b>.  <b>T</b> lines follow.  Each line contains three space-separated integers: <b>R</b>, <b>C</b>, and <b>M</b>.
+</p>
+
+<h3>Output</h3>
+<p>
+For each test case, output a line containing "Case #x:", where x is the test case number (starting from 1). On the following <b>R</b> lines, output the board configuration with <b>C</b> characters per line, using '.' to represent an empty cell, '*' to represent a cell that contains a mine, and 'c' to represent the clicked cell.
+</p>
+<p>
+If there is no possible configuration, then instead of the grid, output a line with <nobr>"Impossible"</nobr> instead. If there are multiple possible configurations, output any one of them.
+</p>
+
+<h3>Limits</h3>
+<p>
+0 ≤ <b>M</b> &lt; <b>R</b> * <b>C</b>.<br>
+</p>
+
+<h4>Small dataset</h4>
+<p>
+1 ≤ <b>T</b> ≤ 230.<br>
+1 ≤ <b>R</b>, <b>C</b> ≤ 5.<br>
+</p>
+
+<h4>Large dataset</h4>
+<p>
+1 ≤ <b>T</b> ≤ 140.<br>
+1 ≤ <b>R</b>, <b>C</b> ≤ 50.<br>
+</p>
+
+
+<h3>Sample</h3>
+<div class="problem-io-wrapper">
+<table>
+<tbody><tr>
+<td>
+<br>
+<span class="io-table-header">Input</span>
+<br>&nbsp;
+</td>
+<td>
+<br>
+<span class="io-table-header">Output</span>
+<br>&nbsp;
+</td>
+</tr>
+<tr>
+<td>
+<pre class="io-content">5
+5 5 23
+3 1 1
+2 2 1
+4 7 3
+10 10 82
+
+</pre>
+</td>
+<td>
+<pre class="io-content">Case #1:
+Impossible
+Case #2:
+c
+.
+*
+Case #3:
+Impossible
+Case #4:
+......*
+.c....*
+.......
+..*....
+Case #5:
+**********
+**********
+**********
+****....**
+***.....**
+***.c...**
+***....***
+**********
+**********
+**********
+
+</pre>
+</td></tr></tbody></table>
+</div>
+
+</div></div><div id="dsb-problem-page3" class="dsb-content-pages"><!-- Problem Input File Selection --><div class="dsb-input-panel-text" id="dsb-input-panel-text3"><span style="color: #666666;">This contest is open for practice.  You can try every problem as many times as you like, though we won't keep track of which problems you solve.  Read the <a href="https://code.google.com/codejam/quickstart.html" target="_blank">Quick-Start Guide</a> to get started.</span></div><table><tbody id="dsb-input-form-table3"><tr><td class="dsb-input-table-description">Small input<br>14 points</td><td class="dsb-input-table-linktd"><div id="dsb-action-box-wrap3-0" class=""><div id="dsb-input-wrapper3-0" class="dsb-input-wrapper" style="display: inline;"><button class="dsb-input-start-button" id="dsb-input-start-button3-0" style="display: inline;">Solve D-small</button><span class="dsb-input-link-span" id="dsb-input-link-plain3-0" style="display: none;"><img class="dsb-input-link-img" src="./Dashboard - Qualification Round 2014 - Google Code Jam_files/file.gif"><span class="dsb-input-link-text" id="dsb-input-link-plain-text3-0">Download D-small-practice.in</span></span></div><span class="dsb-input-table-caption" id="dsb-input-table-caption3-0" style="display: none;"></span><span class="dsb-input-table-caption" id="dsb-resubmit-caption3-0" style="display: none;">Your submission was received. You can still <span class="dsb-input-link-text" id="dsb-resubmit-link3-0">resubmit</span> for <span id="dsb-resubmit-timer3-0"></span>.<br>Only your last submission counts. <span class="dsb-input-link-text" id="dsb-resubmit-view-sub-link3-0">View your last submission</span>.</span><div><div class="dsb-submit-form-div" id="dsb-submit-form-div3-0" style="display: none;"><div style="display:none"><b>Time Remaining:</b> <span id="io_timer_5"></span>&nbsp;&nbsp;</div><div style="display:none"><b>Input:</b> D-small-practice.in.</div><form id="submit-formio_timer_5" action="https://code.google.com/codejam/contest/2974486/dashboard/do" enctype="multipart/form-data" method="post"><input type="hidden" name="csrfmiddlewaretoken" value="MWMzZjFhNTJiZjI5ZTBiNTEzMGY2NjA2MjY1ZTFjOTV8fDE0MDk1NzY0NjI5MDMzMDU="><div class="dsb-submit-form-separator">your output file:<input id="output-fileio_timer_5" type="file" name="answer" class="submitFormFile"></div><div style="display: none"><table class="dsb-source-code-table"><tbody><tr><td style="padding:0.4em 0.2em 0 0">source code:&nbsp;&nbsp;</td><td><div id="source-filesio_timer_5"><div id="input-file-divio_timer_5-0"><span id="source-fileio_timer_5-0"><input type="file" name="source-file0" class="submitFormFile"></span><span id="remove-source-fileio_timer_5-0" class="dsb-submit-form-links" style="visibility: hidden;">remove</span></div></div><span id="add-source-fileio_timer_5" class="dsb-submit-form-links">Add another file</span></td></tr></tbody></table></div><div class="dsb-submit-form-separator" style="color:gray">source file(s): &nbsp;&nbsp;&nbsp;not needed for the practice contest</div><div class="dsb-submit-form-separator" style="text-align:center"><input id="submit-buttonio_timer_5" type="button" value="Submit file">&nbsp;&nbsp;<input id="dsb-hide-submissionio_timer_5" type="button" value="Hide"></div><div id="source-file-namesio_timer_5"></div><input type="hidden" name="cmd" value="SubmitAnswer"><input type="hidden" name="problem" value="5644738749267968"><input type="hidden" name="input_id" value="0"><input type="hidden" name="num_source_files" id="num-source-filesio_timer_5" value="1"><input type="hidden" name="agent" value="website"></form></div></div></div></td></tr><tr><td class="dsb-input-table-description">Large input<br>16 points</td><td class="dsb-input-table-linktd"><div id="dsb-action-box-wrap3-1" class=""><div id="dsb-input-wrapper3-1" class="dsb-input-wrapper" style="display: inline;"><button class="dsb-input-start-button" id="dsb-input-start-button3-1" style="display: inline;">Solve D-large</button><span class="dsb-input-link-span" id="dsb-input-link-plain3-1" style="display: none;"><img class="dsb-input-link-img" src="./Dashboard - Qualification Round 2014 - Google Code Jam_files/file.gif"><span class="dsb-input-link-text" id="dsb-input-link-plain-text3-1">Download D-large-practice.in</span></span></div><span class="dsb-input-table-caption" id="dsb-input-table-caption3-1" style="display: none;"></span><span class="dsb-input-table-caption" id="dsb-resubmit-caption3-1" style="display: none;">Your submission was received. You can still <span class="dsb-input-link-text" id="dsb-resubmit-link3-1">resubmit</span> for <span id="dsb-resubmit-timer3-1"></span>.<br>Only your last submission counts. <span class="dsb-input-link-text" id="dsb-resubmit-view-sub-link3-1">View your last submission</span>.</span><div><div class="dsb-submit-form-div" id="dsb-submit-form-div3-1" style="display: none;"><div style="display:none"><b>Time Remaining:</b> <span id="io_timer_6"></span>&nbsp;&nbsp;</div><div style="display:none">You may resubmit this multiple times within the remaining time-frame. Only your last submission will count.</div><form id="submit-formio_timer_6" action="https://code.google.com/codejam/contest/2974486/dashboard/do" enctype="multipart/form-data" method="post"><input type="hidden" name="csrfmiddlewaretoken" value="MWMzZjFhNTJiZjI5ZTBiNTEzMGY2NjA2MjY1ZTFjOTV8fDE0MDk1NzY0NjI5MDMzMDU="><div class="dsb-submit-form-separator">your output file:<input id="output-fileio_timer_6" type="file" name="answer" class="submitFormFile"></div><div style="display: none"><table class="dsb-source-code-table"><tbody><tr><td style="padding:0.4em 0.2em 0 0">source code:&nbsp;&nbsp;</td><td><div id="source-filesio_timer_6"><div id="input-file-divio_timer_6-0"><span id="source-fileio_timer_6-0"><input type="file" name="source-file0" class="submitFormFile"></span><span id="remove-source-fileio_timer_6-0" class="dsb-submit-form-links" style="visibility: hidden;">remove</span></div></div><span id="add-source-fileio_timer_6" class="dsb-submit-form-links">Add another file</span></td></tr></tbody></table></div><div class="dsb-submit-form-separator" style="color:gray">source file(s): &nbsp;&nbsp;&nbsp;not needed for the practice contest</div><div class="dsb-submit-form-separator" style="text-align:center"><input id="submit-buttonio_timer_6" type="button" value="Submit file">&nbsp;&nbsp;<input id="dsb-hide-submissionio_timer_6" type="button" value="Hide"></div><div id="source-file-namesio_timer_6"></div><input type="hidden" name="cmd" value="SubmitAnswer"><input type="hidden" name="problem" value="5644738749267968"><input type="hidden" name="input_id" value="1"><input type="hidden" name="num_source_files" id="num-source-filesio_timer_6" value="1"><input type="hidden" name="agent" value="website"></form></div></div></div></td></tr></tbody></table><!-- Problem Statement --><div id="dsb-problem-content-div3" class="dsb-problem-content-div" style="width: 40em;"><p>
+<b>
+This problem is the hardest problem to understand in this round. If you are new to Code Jam, you should probably try to solve the other problems first.
+</b>
+</p>
+
+<h3>Problem</h3>
+<p>
+Naomi and Ken sometimes play games together. Before they play, each of them gets <b>N</b> identical-looking blocks of wood with masses between 0.0kg and 1.0kg (exclusive). All of the blocks have different weights. There are lots of games they could play with those blocks, but they usually play something they call War. Here is how War works:
+</p>
+<p>
+</p><ol>
+<li>
+Each player weighs each of his or her own blocks, so each player knows the weights of all of his or her own blocks, but not the weights of the other player's blocks.
+</li>
+<li>They repeat the following process <b>N</b> times:
+<ol>
+<li>Naomi chooses one of her own blocks, with mass <code>Chosen<sub>Naomi</sub></code>.</li>
+<li>Naomi tells Ken the mass of the block she chose.</li>
+<li>Ken chooses one of his own blocks, with mass <code>Chosen<sub>Ken</sub></code>.</li>
+<li>They each put their block on one side of a <a href="https://www.google.com/search?q=balance+scale&tbm=isch" target="_blank">balance scale</a>, and the person whose block is heavier gets one point.</li>
+<li>Both blocks are destroyed in a fire.</li>
+</ol>
+</li>
+</ol>
+<p></p>
+<p>
+Naomi has realized three things about War. First, she has realized that she loses a lot. Second, she has realized that there is a unique strategy that Ken can follow to maximize his points without assuming anything about Naomi's strategy, and that Ken always uses it. Third, she has realized that she hates to lose. Naomi has decided that instead of playing War, she will play a game she calls Deceitful War. The great thing about Deceitful War is that Ken will think they're playing War!
+</p>
+<p>
+Here is how Deceitful War works, with differences between Deceitful War and War in bold:
+</p>
+<p>
+</p><ol>
+<li>
+Each player weighs each of his or her own blocks.  <b>Naomi also weighs Ken's blocks while he isn't looking, so Naomi knows the weights of all blocks</b> and Ken only knows the weights of his own blocks.
+</li>
+<li>They repeat the following process <b>N</b> times:
+<ol>
+<li>Naomi chooses one of her own blocks, with mass <code>Chosen<sub>Naomi</sub></code>.</li>
+<li>Naomi tells Ken <b>a number, <code>Told<sub>Naomi</sub></code>, between 0.0kg and 1.0kg exclusive.</b> Ken, who thinks they're playing War, thinks the number Naomi just told him is <code>Chosen<sub>Naomi</sub></code>.</li>
+<li>Ken chooses one of his own blocks, with mass <code>Chosen<sub>Ken</sub></code>.</li>
+<li>They each put their block on one side of a <a href="https://www.google.com/search?q=balance+scale&tbm=isch" target="_blank">balance scale</a>, and the person whose block is heavier gets one point.</li>
+<li>Both blocks are destroyed in a fire.</li>
+</ol>
+</li>
+</ol>
+<p></p>
+<p>
+Naomi doesn't want Ken to know that she isn't playing War; so when she is choosing which block to play, and what mass to tell Ken, she must make sure that the balance scale won't reveal that <code>Chosen<sub>Naomi</sub> ≠ Told<sub>Naomi</sub></code>. In other words, she must make decisions so that:
+</p><ul>
+<li><code>Chosen<sub>Naomi</sub> &gt; Chosen<sub>Ken</sub></code> if, and only if, <code>Told<sub>Naomi</sub> &gt; Chosen<sub>Ken</sub></code>, and
+</li><li><code>Told<sub>Naomi</sub></code> is not equal to the mass of any of Ken's blocks, because he knows that isn't possible.</li>
+</ul>
+<p></p>
+<p>
+It might seem like Naomi won't win any extra points by being deceitful, because Ken might discover that she wasn't playing War; but Naomi knows Ken thinks both players are playing War, and she knows what he knows, and she knows Ken will always follow his unique optimal strategy for War, so she can always predict what he will play.
+</p>
+<p>
+You'll be given the masses of the blocks Naomi and Ken started with. Naomi will play Deceitful War optimally to gain the maximum number of points. Ken will play War optimally to gain the maximum number of points <i>assuming that both players are playing War</i>. What will Naomi's score be? What would it have been if she had played War optimally instead?
+</p>
+
+<h3>Examples</h3>
+<p>
+If each player has a single block left, where Naomi has 0.5kg and Ken has 0.6kg, then Ken is guaranteed to score the point. Naomi can't say her number is ≥ 0.6kg, or Ken will know she isn't playing War when the balance scale shows his block was heavier.
+</p>
+<p>
+If each player has two blocks left, where Naomi has [0.7kg, 0.2kg] and Ken has [0.8kg, 0.3kg], then Naomi could choose her 0.2kg block, and deceive Ken by telling him that she chose a block that was 0.6kg. Ken assumes Naomi is telling the truth (as in how the War game works) and will play his 0.8kg block to score a point. Ken was just deceived, but he will never realize it because the balance scale shows that his 0.8kg block is, like he expected, heavier than the block Naomi played. Now Naomi can play her 0.7kg block, tell Ken it is 0.7kg, and score a point. If Naomi had played War instead of Deceitful War, then Ken would have scored two points and Naomi would have scored zero.
+</p>
+
+<h3>Input</h3>
+<p>
+The first line of the input gives the number of test cases, <b>T</b>. <b>T</b> test cases follow.  Each test case starts with a line containing a single integer <b>N</b>, the number of blocks each player has. Next follows a line containing <b>N</b> space-separated real numbers: the masses of Naomi's blocks, in kg. Finally there will be a line containing <b>N</b> space-separated real numbers: the masses of Ken's blocks, in kg.
+</p>
+<p>
+Each of the masses given to Ken and Naomi will be represented as a 0, followed by a decimal point, followed by 1-5 digits. Even though all the numbers in the input have 1-5 digits after the decimal point, Ken and Naomi don't know that; so Naomi can still tell Ken that she played a block with mass 0.5000001kg, and Ken has no reason not to believe her.
+</p>
+
+<h3>Output</h3>
+<p>
+For each test case, output one line containing "Case #<b>x</b>: <b>y</b> <b>z</b>", where <b>x</b> is the test case number (starting from 1), <b>y</b> is the number of points Naomi will score if she plays Deceitful War optimally, and <b>z</b> is the number of points Naomi will score if she plays War optimally.
+</p>
+
+<h3>Limits</h3>
+<p>
+1 ≤ <b>T</b> ≤ 50.<br>
+All the masses given to Ken and Naomi are distinct, and between 0.0 and 1.0 exclusive.<br>
+</p>
+
+<h4>Small dataset</h4>
+<p>
+1 ≤ <b>N</b> ≤ 10.<br>
+</p>
+
+<h4>Large dataset</h4>
+<p>
+1 ≤ <b>N</b> ≤ 1000.<br>
+</p>
+
+
+<h3>Sample</h3>
+<div class="problem-io-wrapper">
+<table>
+<tbody><tr>
+<td>
+<br>
+<span class="io-table-header">Input</span>
+<br>&nbsp;
+</td>
+<td>
+</td></tr>
+<tr>
+<td>
+<pre class="io-content">4
+1
+0.5
+0.6
+2
+0.7 0.2
+0.8 0.3
+3
+0.5 0.1 0.9
+0.6 0.4 0.3
+9
+0.186 0.389 0.907 0.832 0.959 0.557 0.300 0.992 0.899
+0.916 0.728 0.271 0.520 0.700 0.521 0.215 0.341 0.458
+
+</pre>
+</td>
+</tr>
+<tr>
+<td>
+<br><hr><br>
+</td>
+</tr>
+<tr>
+<td>
+<span class="io-table-header">Output</span>
+<br>&nbsp;
+</td>
+</tr>
+<tr>
+<td>
+<pre class="io-content">Case #1: 0 0
+Case #2: 1 0
+Case #3: 2 1
+Case #4: 8 4
+
+</pre>
+</td></tr>
+</tbody></table>
+</div>
+
+</div></div></div>
+
+    <div id="dsb-analysis-page" class="dsb-content-pages"><div id="dsb-analysis-selections"><span id="dsb-analysis-selection-p4" class="dsb-analysis-selected">Overview</span>&nbsp; | &nbsp;<span id="dsb-analysis-selection-p0" class="dsb-analysis-not-selected">Problem A</span>&nbsp; | &nbsp;<span id="dsb-analysis-selection-p1" class="dsb-analysis-not-selected">Problem B</span>&nbsp; | &nbsp;<span id="dsb-analysis-selection-p2" class="dsb-analysis-not-selected">Problem C</span>&nbsp; | &nbsp;<span id="dsb-analysis-selection-p3" class="dsb-analysis-not-selected">Problem D</span></div><div id="dsb-problem-analysis-div4" class="dsb-problem-content-div"><p>
+Google Code Jam 2014 is off and running! We have 20,595 advancers out of 25,462 people who correctly solved at least one input, and 49,066 registrants. People correctly solved problems from 165 different regions of the world, using 88 different programming languages. All those numbers are records for us!
+</p>
+
+<p>
+We opened with a magic trick, and a game about gathering cookies, both of which had solutions that were straightforward -- at least in principle. Next came Minesweeper Master, which had an astonishingly low success rate: under 50% of people who thought they had solved it eventually did; and of our 25 fastest finishers in the round, 11 of them got it wrong on the first try. Last came Deceitful War, a problem that was harder to understand but easier to solve, which asked you to get inside the heads of both an honest game player and a dishonest one.
+</p>
+
+<p>
+There are three more rounds to go before the Finals, and we are just getting started. We hope to see all the advancers in the First Rounds!
+</p>
+
+<hr>
+
+<p>Cast</p>
+
+<p>Problem A. <i>Magic Trick</i> Written and prepared by Ahmed Aly.</p>
+
+<p>Problem B. <i>Cookie Clicker Alpha</i> Written by Bartholomew Furrow. Prepared by Sean Henderson and Bartholomew Furrow.</p>
+
+<p>Problem C. <i>Minesweeper Master</i> Written and prepared by Igor Naverniouk.</p>
+
+<p>Problem D. <i>Deceitful War</i> Written by Bartholomew Furrow. Prepared by Jonathan Wills and Bartholomew Furrow.</p>
+
+Contest analysis presented by Felix Halim, Topraj Gurung, Zong-Sian Li and Bartholomew Furrow.
+
+Solutions and other problem preparation by Jonathan Paulson, Jonathan Shen, Khaled Hafez, Mahbubul Hasan, Mohammad Kotb, Patrick Nguyen and Steve Thomas.
+</div><div id="dsb-problem-analysis-div0" class="dsb-problem-content-div" style="display: none;"><p>
+In the first arrangement, when the volunteer tells the magician the row that contains her card, the magician is able to see a set of four cards in that row. Similarly, in the second arrangement, the magician is able to see another set of four cards in the selected row.
+</p>
+
+<p>
+Therefore, after hearing the two volunteer’s answers, the magician will have two sets of cards:
+<br>
+- the first set of four cards that lie in the selected row in the first arrangement, and
+<br>
+- the second set of four cards that lie in the selected row in the second arrangement.
+</p>
+
+<p>
+To know which card the volunteer chose, the magician must be able to find exactly one card that is in both sets (i.e., the intersection size of the two sets must be equal to one). If there is more than one card that is in both sets (i.e., the intersection size is bigger than one), then it means the magician can not determine which card the volunteer chose since there are more than one possible card that could have been chosen by the volunteer (the magician did a bad job). If none of the card in the first set is in the second set (i.e., the intersection size is zero), then there is no card consistent with the volunteer's answers (the volunteer cheated).
+</p>
+
+<p>
+The sample input covers all three possible cases:
+</p>
+
+<p>
+In Case #1, the two sets are {5, 6, 7, 8} and {9, 10, 7, 12}. There is exactly one card (i.e., card 7) that is in both sets, and thus the volunteer chosen card must be 7.
+</p>
+
+<p>
+In Case #2, the two sets are {5, 6, 7, 8} and {5, 6, 7, 8}. The card chosen by the volunteer can be any of {5, 6, 7, 8} because all of them contains in both sets. Bad magician!
+</p>
+
+<p>
+Lastly, in Case #3, the two sets are {5, 6, 7, 8} and {9, 10, 11, 12}. None of the cards in the first set is in the second set. The volunteer must have cheated!
+</p></div><div id="dsb-problem-analysis-div1" class="dsb-problem-content-div" style="display: none;"><p>
+In this problem, we need to decide on the number of cookie farms to buy and also need to decide on when to buy the farms.
+</p>
+<p>
+The strategy is perhaps surprisingly simple: first, collect enough cookies to buy a farm. Then figure out whether it's faster to buy one farm and <i>then</i> collect <b>X</b> cookies, or simply to collect <b>X</b> cookies now. If it's faster to collect <b>X</b> cookies now, you should do that. If it's faster to buy a farm first, buy that farm and then repeat this process (collect enough cookies to buy another farm...).
+</p>
+<p>
+It's very easy to <i>say</i> that, but it's not as easy to prove it works. How many farms might you end up buying? If it's in the billions, your program might be too slow, and we never proved it wouldn't be. We also didn't prove that it's best to buy a farm <i>right away</i> as soon as you have enough cookies. The rest of this editorial will go into those questions in detail.
+</p>
+<p>
+We build the intuition for the solution by using geometry. We represent the problem in the 2d plane. Let the x-axis represent time (in seconds) and the y-axis represent the number of cookies. Initially, we gain cookies at the rate of 2 cookies per second which is shown by line L<sub>0</sub> in Figure 1. Let’s say the target number of cookies (X) is 16. We can represent it with line y=16 (L<sub>X</sub>). This means that if we do not buy any cookie farm then the time it takes to get 16 cookies is given by the intersection between L<sub>X</sub> and L<sub>0</sub>. See Figure 1.
+</p>
+
+<p>
+<img src="./Dashboard - Qualification Round 2014 - Google Code Jam_files/saved_resource">
+<br>
+Figure 1
+</p>
+
+<p>
+Now, let’s delve into what happens (geometrically speaking) when we buy a cookie farm. Let’s say the cost for buying a cookie farm (C) is 6, and the extra cookies per second (F) is 2. In Figure 2, we buy a farm as soon as we have 6 cookies. This means at time = 3, we go from having 6 cookies to 0 cookies (to pay for the cookie farm), and our cookies per second increases to 4. This information is represented by L<sub>1</sub> in Figure 2. Note that the dashed lines represent the drop of current cookies when we buy a cookie farm. Notice that L<sub>0</sub> and L<sub>1</sub> intersect at the 6 second mark (and correspondingly, X=12 cookies). It means that, if our target number of cookies X is anywhere between 0 and 12 then it is not advantageous to buy a cookie farm! Why? Let’s look at an example line L<sub>X</sub>a which is in that range. In Figure 2, we see that L<sub>0</sub> intersects L<sub>X</sub>a earlier (at 4 second mark) than L<sub>1</sub> intersects L<sub>X</sub>a (at 5 second mark). At X = 12 (represented by L<sub>X</sub>b), it does not matter if we buy a cookie farm or not. But if X is higher than 12, for example X = 16 (represented by L<sub>X</sub>), we should buy a cookie farm since L<sub>1</sub> intersect L<sub>X</sub> earlier (at 7 second mark) than L<sub>0</sub> (at 8 second mark). Jumping ahead briefly, we notice a similar behavior for the intersection between L<sub>1</sub>, L<sub>2</sub> and L<sub>X</sub> in Figure 4 (we'll describe how we compute L<sub>2</sub> in subsequent paragraphs). If we choose X = 18, it doesn't matter if we choose L<sub>1</sub> or L<sub>2</sub>, but if X is below 18 then L<sub>1</sub> intersection is better than L<sub>2</sub> intersection, but if X is above 18 then L<sub>2</sub> intersection is better than L<sub>1</sub> intersection.
+</p>
+
+<p>
+<img src="./Dashboard - Qualification Round 2014 - Google Code Jam_files/saved_resource(1)">
+<br>
+Figure 2
+</p>
+
+<p>
+Now we discuss the strategy for how early we should buy a cookie farm i.e. should we buy a cookie farm as soon as we have C cookies, or should we wait a little longer before buying a cookie farm? We claim that we should buy a farm as soon as we have C cookies (and not wait any second longer). 
+</p>
+
+
+<p>
+<img src="./Dashboard - Qualification Round 2014 - Google Code Jam_files/saved_resource(2)">
+<br>
+Figure 3
+</p>
+
+<p>
+In Figure 3 as before, L<sub>1</sub> represents buying a cookie farm as soon as we have 6 cookies (at 3 second), while L<sub>1</sub>a represents delaying buying a cookie farm by a second (at 4 second). Note that L<sub>1</sub> and L<sub>1</sub>a are going to be parallel to each other (i.e. they have the same rate: 4 cookies for second) but L<sub>1</sub> is located to the left of L<sub>1</sub>a. What does this mean? It means that the intersection between any line L<sub>X</sub> and L<sub>1</sub> will always be at an earlier time than the intersection between L<sub>X</sub> and L<sub>1</sub>a. Therefore we should not wait to buy cookie farms any more than needed. This means that if buying a cookie farm contributes to your winning strategy, then we should buy a cookie farm as soon as possible, i.e. as soon as we have C cookies.
+</p>
+
+<p>
+In Figure 4, we can observe that the earliest time to buy the first cookie farm is on the intersection of line L<sub>0</sub> with line L<sub>C</sub> (y=C). Then, the earliest time to buy the second cookie farm is on the intersection of line L<sub>1</sub> with L<sub>C</sub>.
+</p>
+
+<p>
+<img src="./Dashboard - Qualification Round 2014 - Google Code Jam_files/saved_resource(3)">
+<br>
+Figure 4
+</p>
+
+<p>
+Now, we are ready to describe our solution strategy. We first determine the time t<sub>0</sub> it takes to get X cookies without buying a cookie farm (i.e. intersection between L<sub>0</sub> and L<sub>X</sub>). Then we try to buy 1 cookie farm and figure out the time t<sub>1</sub> it takes to get X cookies (i.e. intersection between L<sub>1</sub> and L<sub>X</sub>). Then compute t<sub>2</sub> for buying another cookie farm (i.e. intersection between L<sub>2</sub> and L<sub>X</sub>), and so on. We stop when t<sub>n+1</sub> is greater than t<sub>n</sub> (i.e. we do worse, in terms of time, by buying an additional cookie farm). For example, in Figure 4, we do worse with L<sub>2</sub> than with L<sub>1</sub> (intersections with L<sub>X</sub>). We finally report  t<sub>n</sub> as our winning time.
+</p>
+
+<p>
+A note on doing the actual line intersection computation follows. We want to compute the line intersections between lines L<sub>0</sub>, L<sub>1</sub>, L<sub>2</sub>, etc and y = C or y = X. Let our current line be L<sub>n</sub> starting at (S<sub>n</sub>, 0) and have a slope of m (i.e. cookies per second after buying n cookie farms). Note that s<sub>0</sub> is 0, and m = 2 + n * F. Then the time required to get A cookies is given as: S<sub>n</sub> + A / m.
+</p>
+
+<p>
+Our solution strategy mentioned above iterates until a winning condition is achieved. But you might be wondering about total iterations needed before we are done. We want to point out that the number of iterations is bounded. In the solution strategy, we noted that the stopping condition for iteration is when we do worse (in terms of time) when buying an additional farm. Let’s formulate that as an equation. Let’s say our current iteration is i with line L<sub>i</sub> with the next line being L<sub>i+1</sub>. The intersection between line y = X and L<sub>i</sub> is given as t<sub>i</sub> = s<sub>i</sub> + X / (2 + i * F), and similarly intersection between line y = X and L<sub>i+1</sub> is given as t<sub>i+1</sub> = s<sub>i+1</sub> + X / (2 + (i + 1) * F). We stop when t<sub>i+1</sub> &gt; t<sub>i</sub>. Note that s<sub>i+1</sub> - s<sub>i</sub> = C / (2 + i * F). After going through some math, we get i &gt; (X / C) - 1 - (2 / F), which is the iteration when t<sub>i+1</sub> becomes bigger than t<sub>i</sub>. Therefore the iteration should terminate around X / C.
+</p></div><div id="dsb-problem-analysis-div2" class="dsb-problem-content-div" style="display: none;"><p>
+There are many ways to generate a valid mine configuration. In this analysis, we try to enumerate all possible cases and try to generate a valid configuration for each case (if exists). Later, after having some insight, we provide an easier to implement algorithm to generate a valid mine configuration (if exists).
+</p>
+
+<p>
+</p><h2>Enumerating all possible cases</h2>
+<p>
+We start by checking the trivial cases:
+</p><ul>
+<li>
+If there is only one empty cell, then we can just fill all cells with mines except the cell where you click.
+</li>
+<li>
+If R = 1 or C = 1, the mines can be placed from left to right or top to bottom respectively and click on the right-most or the bottom-most cell respectively.
+</li>
+</ul>
+<p></p>
+
+<p>
+If the board is not in the two trivial cases above, it means the board has at least 2 x 2 size. Then, we can manually check that:
+</p><ul>
+<li>
+If  the number of empty cells is 2 or 3, it is Impossible to have a valid configuration.
+</li>
+<li>
+If R = 2 or C = 2, valid configurations exists only if M is even. For example, if R = 2, C = 7 and M = 5, it is Impossible since M is odd. However, if M = 6, we can place the mines on the left part of the board and click on the bottom right, like this:
+</li>
+</ul>
+<pre>            ***....
+            ***...c
+</pre>
+<p></p>
+
+<p>
+If the board is not in any of the above case, it means the board is at least 3 x 3 size. In this case, we can always find a valid mine configuration if the number of empty cells is bigger than 9. Here is one way to do it:
+</p><ul>
+<li>
+If the number of empty cells is equal or bigger than 3 * C, then the mines can be placed row by row starting from top to bottom. If the number of remaining mines can entirely fill the row or is less than C - 2 then place the mines from left to right in that row. Otherwise, the number of remaining mines is exactly C - 1, place the last mine in the next row. For example:
+</li>
+<pre>            ******        ******
+            *****.        ****..
+            ......   -&gt;   *.....
+            ......        ......
+            .....c        .....c
+</pre>
+<li>
+If the number of empty cells is less than 3 * C but at least 9, we first fill all rows with mines except the last 3 rows. For the last 3 rows, we fill the remaining mines column by column from the left most column. If the remaining mines on the last column is two, then last mine must be put in the next column. For example:
+</li>
+<pre>            ******        ******
+            **....   -&gt;   ***...
+            **....        *.....
+            *....c        *....c
+</pre>
+</ul>
+<p>
+Now, we are left with at most 9 empty cells which are located in the 3 x 3 square cells at the bottom right corner. In this case, we can check by hand that if the number of empty cells is 5 or 7, it is Impossible to have a valid mine configuration. Otherwise, we can hard-coded a valid configuration for each number of empty cell in that 3 x 3 square cells.
+</p>
+<p>
+Sigh... that was a lot of cases to cover! How do we convince ourselves that when we code the solution, we do not miss any corner case?
+</p>
+
+<p>
+</p><h2>Brute-force approach</h2>
+<p>
+For the small input, the board size is at most 5 x 5. We can check all (25 choose M) possible mine configurations and find one that is valid (i.e., clicking an empty cell in the configuration reveal all other empty cells). To check whether a mine configuration is valid, we can run a flood-fill algorithm (or a simple breath-first search) from the clicked empty cell and verify that all other empty cells are reachable (i.e., they are in one connected component). Note that we should also check all possible click positions. This brute-force approach is fast enough for the small input. 
+</p>
+
+<p>
+The brute-force approach can be used to check (for small values of R, C, M) whether there is a false-negative in our enumeration strategy above. A false-negative is found when there exist a valid mine configuration, but the enumeration strategy above yields Impossible. Once we are confident that our enumeration strategy does not produce any false-negative, we can use it to solve the large input.
+</p>
+
+<p>
+</p><h2>An easier to implement approach</h2>
+<p>
+After playing around with several valid mine configurations using the enumeration strategy above, you may notice a pattern: in a valid mine configuration,  the number of mines in a particular row is always equal or larger than the number of mines of the rows below it and all the mines are left-aligned in a row. With this insight, we can implement a simpler backtracking algorithm that places mines row by row from top to bottom with non-increasing number of mines as we proceed to fill in the next row and prune if the configuration for the current row is invalid (it can be checked by clicking at the bottom right cell). This backtracking with pruning can handle up to 50 x 50 sized board in reasonable time and is simpler to implement (i.e., no need to enumerate corner / tricky cases).
+</p>
+<p>
+If the contest time were shorter, we may not have enough time to enumerate all possible cases. In this case, betting on the backtracking algorithm (or any other algorithm that is easier to implement) may be a good idea. Finding such algorithms is an art :).
+</p></div><div id="dsb-problem-analysis-div3" class="dsb-problem-content-div" style="display: none;"><h2>Ken's best possible game of War</h2>
+<p>
+First, let's think about the best possible outcome for Ken in a game of War. Let's suppose the maximum number of points Ken can get is <b>k</b>; then after a little work convincing yourself, you should see that Ken can achieve that outcome if Ken's <b>k</b> heaviest blocks are played in decreasing order against Naomi's <b>k</b> lightest blocks, also in decreasing order.
+</p>
+<p>
+That exact pairing likely won't happen, and without knowing Naomi's blocks' weights, Ken doesn't even know what the pairing would be; but Ken can follow a simple strategy to score <b>k</b> points anyway.
+</p>
+
+<h2>Ken's strategy</h2>
+<p>
+Ken's strategy is simple: when Naomi plays a block, Ken beats it with the lightest possible block if he can; and if he can't beat it, he plays his lightest block. It is clear that using such strategy will maximize Ken's winning potential for the following rounds because Ken not only wins one point for this round, but also preserves his heavier blocks for the following rounds.
+</p>
+<p>
+The following block of text proves that this strategy will earn Ken the maximum possible number of points, <b>k</b>, no matter what Naomi does. If that's obvious to you, or you aren't into formal proofs, go ahead and skip it.
+</p>
+
+<h3><b>Proof</b></h3>
+<p>
+In this strategy, to win <b>k</b> points Ken wants to maintain an invariant: after Ken has scored <b>i</b> points, Ken's <b>k-i</b> heaviest blocks will still beat Naomi's <b>k-i</b> lightest blocks. When <b>k-i</b> is zero, Ken cannot win any more points because his heaviest block is lighter than any of Naomi's blocks. Therefore, if that invariant is maintained Ken must have <b>k</b> points when there are no more blocks left.
+</p>
+<p>
+<b>Proof of invariant:</b>
+<br>
+Suppose Ken has <b>i</b> points. We'll refer to "pairs" of blocks later: Ken has <b>k - i</b> heaviest blocks remaining and his <b>j</b>-th heaviest remaining block is "paired" with Naomi's <b>(k-i-j)</b>-th lightest remaining block. There are three types of blocks Naomi might play:
+</p><ol>
+<li>If Naomi plays a block that's heavier than all of Ken's, it isn't from Naomi's lightest <b>k-i</b> blocks. Ken will play his lightest block which isn't from his heaviest <b>k-i</b> blocks, and the invariant is maintained.</li>
+<li>If Naomi plays a block that's lighter than one of Ken's blocks but isn't from Naomi's lightest <b>k-i</b> blocks, Ken will either beat it with his heaviest block—in which case Naomi's lightest <b>k-i-1</b> blocks will lose to Ken's heaviest remaining <b>k-i-1</b> blocks, since nothing has changed about how the remaining blocks are paired—or Ken will beat it with something lighter, in which case his position is obviously no worse. Either way Ken has <b>i+1</b> points and the invariant is maintained.</li>
+<li>If Naomi plays a block from her lightest <b>k-i</b> blocks, Ken will either beat it with the block it's paired with, in which case Ken now has <b>i+1</b> points and the remaining <b>k-i-1</b> pairs are maintained; or Ken will beat it with something lighter, in which case Ken is clearly no worse off. Either way Ken has <b>i+1</b> points and the invariant is maintained.</li>
+</ol>
+<p></p>
+<h2>Naomi's best possible game of War</h2>
+<p>
+As we saw in the proof above, Ken can force his maximum possible number of points in War no matter what Naomi does. No wonder Naomi is tired of playing it!
+</p>
+<h2>Naomi's best possible game of Deceitful War</h2>
+<p>
+In Deceitful War, however, it turns out that the situation is exactly reversed: as we'll show in the following paragraphs. In War, Ken got the best possible pairings for himself but Naomi will get the best possible pairings for herself in Deceitful War.
+</p>
+<h2>Naomi's strategy for Deceitful War</h2>
+<p>
+There are several strategies for Naomi to play Deceitful War optimally. We present one here.
+Naomi's strategy for that is almost trivial. Assume <b>k</b> is the best possible score Naomi could achieve. Naomi can do score <b>k</b> points by pairing her <b>k</b> heaviest blocks with Ken's <b>k</b> lightest blocks.
+</p>
+<p>
+Naomi will take her <b>i</b>-th heaviest block and tell Ken that it is heavier than all of Ken's blocks. Ken will believe her and play his lightest block, which is what Naomi wanted. Now Naomi simply has to repeat the process of playing her remaining heaviest blocks from lightest to heaviest and inciting Ken to play his  lightest block from lightest to heaviest. After Naomi scores <b>k</b> points, her heaviest block will be lighter than any of Ken's available blocks. Now, since Naomi cannot lie anymore Naomi plays her remaining blocks without lying about their mass.
+</p>
+<h2>Conclusion</h2>
+<p>
+It's a particularly beautiful piece of symmetry that Ken can achieve his optimal pairing by being reactive, despite being honest and without information; and Naomi can reverse Ken's advantage by beating Ken's reactiveness with dishonesty and perfect information.
+</p>
+</div></div>
+
+    <div id="dsb-clarification-page" class="dsb-content-pages">
+      <!-- The clarifications table -->
+      <div id="clarTableDiv" class="clarTableWrapper"></div><div>
+        <table id="dsb-clarification-table" style="display: none;">
+          <colgroup span="9">
+            <col width="16%"><col width="2%">
+            <col width="10%"><col width="2%">
+            <col width="28%"><col width="2%">
+            <col width="10%"><col width="2%">
+            <col width="28%">
+          </colgroup>
+          <thead>
+            <tr>
+            <th>Category</th><th>&nbsp;</th>
+            <th class="clarTimeColumn">Asked</th><th>&nbsp;</th>
+            <th>Question</th><th>&nbsp;</th>
+            <th class="clarTimeColumn">Answered</th><th>&nbsp;</th>
+            <th>Answer</th>
+            </tr>
+          </thead>
+          <tbody id="dsb-clarification-tbody"></tbody>
+        </table>
+      </div>
+      <div id="dsb-submit-clarification" style="display: none;">
+        <!-- The link to ask a clarification -->
+        <div style="padding: 0.5em 0 0.3em 0;">
+          <b>Ask a question:</b>
+        </div>
+        <!-- The form for asking clarification -->
+        <div>
+          <form onsubmit="return GCJ.submitClarification(this);"><div style="display:none;"><input type="hidden" name="csrfmiddlewaretoken" value="OWFkY2I0Yzg2MjE2N2RiOTU0ZmZkNTUxOGIzNTgyZDB8fDE0MDk1NzY0NjE1ODEyNjM="></div>
+            <div><textarea rows="5" cols="60" name="q"></textarea></div>
+            <div style="padding-top: 0.3em">
+              <select id="dsb-clarification-problem-select" name="problem">
+                <option value="_" selected="">[General]</option>
+              <option value="5756407898963968">A. Magic Trick</option><option value="5709773144064000">B. Cookie Clicker Alpha</option><option value="5690574640250880">C. Minesweeper Master</option><option value="5644738749267968">D. Deceitful War</option></select>
+              &nbsp;
+              <input id="dsb-submit-clarification-button" type="submit" value="Ask">
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- Too many pending clarifications -->
+      <div id="dsb-cannot-ask-question-text" style="font-weight: bold; padding: 0.5em 0px 0.3em; display: block;">You cannot ask questions at this time. Please email us at codejam@google.com.</div>
+
+    </div>
+
+    <div id="dsb-submissions-page" class="dsb-content-pages">
+      <div id="dsb-submissions-status" class="dsb-sub-status-msg">
+        You have 0 submissions.
+      </div>
+      <table id="dsb-submissions-table" class="dsb-sub-main-table" style="display:none">
+      <thead>
+        <tr id="dsb-sub-main-table-header">
+          <th class="dsb-sub-row-id-width">ID</th>
+          <th class="dsb-sub-name-width">Problem</th>
+          <th class="dsb-sub-difficulty-width">Size</th>
+          <th class="dsb-sub-input-width">Input</th>
+          <th class="dsb-sub-output-width">Output</th>
+          <th class="dsb-sub-source-width">Solution</th>
+          <th class="dsb-sub-status-width">Status</th>
+          <th class="dsb-sub-time-width">Time</th>
+        </tr>
+      </thead>
+      <tbody id="dsb-submissions-rows">
+      </tbody>
+      </table>
+    </div>
+
+  </div>
+  </div>
+</div>
+
+</div>
+
+<div style="height: 3em; clear: both;"></div>
+
+
+
+
+<div id="footer">
+  
+  
+  <p>
+    
+    All problem statements, input data and contest analyses are
+    licensed under the
+    <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</a>.
+    
+  </p>
+  
+  <span id="copyright">© 2008-2013 Google</span>
+  <a href="http://www.google.com/">Google Home</a> -
+  <a href="https://code.google.com/codejam/terms.html">Terms and Conditions</a> -
+  <a href="http://www.google.com/intl/en/policies">Privacy Policies and Principles</a>
+  <br><br>
+  <a href="http://developers.google.com/appengine"><img src="./Dashboard - Qualification Round 2014 - Google Code Jam_files/appengine-noborder-120x30.gif"></a>
+  
+</div>
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-21302427-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script');
+    ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+<div style="height: 1em">&nbsp;</div>
+
+<script type="text/javascript">
+GCJ.initHistory();
+</script><input type="text" name="history_state0" id="history_state0" style="display:none">
+
+
+
+
+</div></body></html>
