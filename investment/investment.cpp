@@ -3,8 +3,13 @@
 #include <list>
 #include <algorithm>
 
+/** @brief Typedef for money type. */
 typedef float Money;
 
+/**
+ * @brief MonthsInvestment enum.
+ * @details These are the possible investment months.
+ */
 enum MonthsInvestment
 {
     ONE = 1,
@@ -21,20 +26,37 @@ enum MonthsInvestment
     TWELVE
 };
 
+/** @brief Typedefs for rate and table of rates types. */
 typedef float Rate;
 typedef std::array<Rate, TWELVE> RatesTable;
 
+/** @brief Typedefs for investment actions. */
 typedef MonthsInvestment Action;
 typedef std::list<Action> Actions;
 
+/**
+ * @brief InvestmentFunction class.
+ * @details This class is responsible to calculate profits.
+ */
 class InvestmentFunction
 {
 public:
 
+    /**
+     * @brief Constructor.
+     * @param[in] ratesTable Rates table.
+     */
     InvestmentFunction(const RatesTable& ratesTable) :
         _ratesTable(ratesTable)
     {}
 
+    /**
+     * @brief Executes a single shot investment action.
+     * @param[in] initialAmount Initial amount of money.
+     * @param[in] investmentPerMonth Amount of money to invest per month.
+     * @param[in] months The month type of the investment.
+     * @return The total profits of the execution.
+     */
     Money execute(Money initialAmount, Money investmentPerMonth, MonthsInvestment months) const
     {
         Money monthsSum(0.f);
@@ -47,6 +69,14 @@ public:
         return initialAmount * _getRate(months) + investmentPerMonth * monthsSum;
     }
 
+    /**
+     * @brief Executes many times an investment action.
+     * @param[in] initialAmount Initial amount of money.
+     * @param[in] investmentPerMonth Amount of money to invest per month.
+     * @param[in] months The month type of the investment.
+     * @param[in] times The times to do this operation.
+     * @return The total profits of the execution.
+     */
     Money execute(Money initialAmount, Money investmentPerMonth, MonthsInvestment months, unsigned int times) const
     {
         Money total(initialAmount);
@@ -58,6 +88,14 @@ public:
         return total;
     }
 
+    /**
+     * @brief Gets the best choice of investment.
+     * @param[in] initialAmount Initial amount of money.
+     * @param[in] investmentPerMonth Amount of money to invest per month.
+     * @param[in] totalMonthsOfInvestment The total projected months of the inversion.
+     * @param[out] actions The best actions to do.
+     * @return The best profits.
+     */
     Money getBest(Money initialAmount, Money investmentPerMonth, unsigned int totalMonthsOfInvestment,
                   Actions& actions) const
     {
@@ -90,11 +128,17 @@ public:
 
 private:
 
+    /**
+     * @brief Gets the inversion rate given a month type of investment.
+     * @param[in] months Month type of investment.
+     * @return The inversion rate.
+     */
     inline Rate _getRate(MonthsInvestment months) const
     {
         return _ratesTable[months-1];
     }
 
+    /** @brief The rates table. */
     const RatesTable _ratesTable;
 };
 
